@@ -31,7 +31,7 @@ jobs:
 
   test_e2e:
     timeout-minutes: 60
-    runs-on: self-hosted
+    runs-on: [self-hosted, Linux]
     defaults:
       run:
         working-directory: src/frontend
